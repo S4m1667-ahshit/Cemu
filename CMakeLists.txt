@@ -114,7 +114,7 @@ if (WIN32)
 	add_compile_definitions(HAS_DIRECTINPUT)
 endif()
 
-option(ENABLE_HIDAPI "Build with HIDAPI" ON)
+option(ENABLE_HIDAPI "Build with HIDAPI" OFF)
 option(ENABLE_SDL "Enables the SDLController backend" ON)
 
 # audio backends
